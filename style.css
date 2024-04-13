@@ -1,0 +1,180 @@
+body,
+div,
+h1,
+h2,
+ul,
+li,
+i,
+a,
+p,
+h3,
+footer {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+body {
+  background-image: url(https://i.ibb.co/zQ4kq0b/nnn.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+/* scorll */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #121212;
+}
+
+/* scorll */
+
+body a {
+  color: white;
+  text-decoration: none;
+}
+
+body ul li {
+  list-style: none;
+  margin-top: 10px;
+}
+
+p {
+  font-size: 55px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#center_content {
+  padding-left: 60px;
+}
+
+.info_div {
+  position: fixed;
+  width: 35%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.profile_info {
+  text-align: left;
+  margin-top: 120px;
+}
+
+.profile_info img {
+  margin-left: 20px;
+}
+
+.profile_info h1 {
+  font-size: 30px;
+  margin-left: 30px;
+}
+
+.profile_info h2 {
+  margin-left: 30px;
+  font-size: 20px;
+}
+
+.profile_info h2 a:hover {
+  text-decoration: underline;
+}
+
+.icon {
+  margin-top: 25px;
+  margin-left: 30px;
+}
+
+.icon ul li i {
+  text-shadow: 1px 1px 1px #ccc;
+  font-size: 20px;
+  padding-right: 10px;
+}
+
+.icon ul li a {
+  font-size: 20px;
+}
+
+.social_link {
+  text-align: center;
+  margin-top: 70px;
+  font-size: 25px;
+}
+.social_link a {
+  margin: 0 40px 0 0;
+}
+
+.main_content {
+  position: relative;
+  width: 64%;
+  height: 100%;
+  float: right;
+}
+
+.about h3 {
+  padding-top: 110px;
+}
+
+.about div {
+  height: 100%;
+  width: 90%;
+  border-radius: 0.5em;
+  background-color: #121212;
+}
+
+.about div p {
+  font-size: 20px;
+  margin: 20px 20px 20px 20px;
+}
+
+.skills ul {
+  height: 100%;
+  width: 60%;
+  border-radius: 0.5em;
+  background-color: #121212;
+  padding-bottom: 5px;
+}
+.skills ul li {
+  font-size: 20px;
+  margin: 20px 20px 20px 20px;
+}
+.skills ul li:first-child {
+  padding-top: 20px;
+}
+
+.products div {
+  height: 100%;
+  width: 90%;
+  border-radius: 0.5em;
+  background-color: #121212;
+}
+
+.products div p {
+  font-size: 20px;
+  margin: 20px 20px 20px 20px;
+}
+
+.contact ul {
+  height: 100%;
+  width: 35%;
+  border-radius: 0.5em;
+  background-color: #121212;
+  padding-bottom: 5px;
+}
+
+.contact ul li {
+  font-size: 20px;
+  margin: 20px 20px 20px 20px;
+}
+.contact ul li:first-child {
+  padding-top: 20px;
+}
+
+footer p {
+  text-align: center;
+  font-size: 15px;
+  margin-top: 40px;
+}
